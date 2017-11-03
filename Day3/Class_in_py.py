@@ -1,4 +1,4 @@
-class Student():
+class Student(object):
 	def __init__(self , name, score):
 		#self.name = name
 		self.__name = name  #相当于加了个private,外部不能访问
